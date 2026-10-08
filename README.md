@@ -9,10 +9,14 @@ Aplicación de atención con una fila FIFO y cuatro mesas. El botón **Llamar si
 - Estado en memoria: no usa base de datos. Reiniciar el servidor limpia los turnos.
 - El frontend usa `localhost`; es para operar en la misma computadora.
 
-## Inicio (cuando Python esté instalado)
+## Cómo abrirlo
 
-Abre una terminal en esta carpeta y ejecuta `start.bat`. La primera vez instala dependencias y abre el navegador. Requiere Python 3.10+ y Node.js 20+ con npm. También puedes iniciar por separado: `backend\start-backend.bat` y `frontend\start-frontend.bat`.
+1. Extrae el ZIP.
+2. Asegúrate de tener Python 3.10+ y Node.js 20+ instalados.
+3. Haz doble clic en `start.bat` y espera a que se abra el navegador.
+
+La primera vez se descargan las dependencias, así que requiere conexión a Internet durante la instalación inicial. Después, los turnos se procesan localmente. No necesitas abrir un editor de código.
 
 ## GitHub
 
-Subir este código a GitHub guarda y comparte el proyecto; no mantiene encendido el servidor local. Para operar, el backend debe estar ejecutándose en la computadora donde se atiende. No incluyas contraseñas ni tokens en archivos del proyecto.
+GitHub guarda y comparte el código; no mantiene encendido el servidor local. Para operar, deja abierta la ventana del backend en la computadora donde atienden. No guardes contraseñas ni tokens en este proyecto.
